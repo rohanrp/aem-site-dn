@@ -1,0 +1,38 @@
+/* our client page  start */
+main > .section.client {
+  margin-bottom: 0 !important;
+  padding: 48px 0;
+}
+
+main > .section.client .icon {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+}
+
+
+main > .section.client .slick-slide {
+  height:100px;
+}
+
+main >.whyus {
+  --background-color: var(--Delivery-NOW-Primary-Tints-90);
+  background: var(--Delivery-NOW-Primary-Tints-90);
+  --card-background-margin: 0;
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+main >.whyus .cards-wrapper {
+  padding-top: 20px;
+}
+
+main >.whyus h2 {
+  color: #fff;
+}
+
+
+/* our client page  end */

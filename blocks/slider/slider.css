@@ -1,0 +1,42 @@
+.slider-carousel {
+  display: flex !important;
+  align-items: center;
+}
+
+.slider-carousel .slick-slide {
+  display: flex !important;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 5px;}
+
+.slider-carousel .slick-button {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-size: 31px;
+  background-position: center; 
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s; 
+  background-repeat: no-repeat;
+  background-color: var(--Delivery-NOW-Secondary-Tints-10);
+}
+
+.slider-carousel .slick-button:hover {
+  transform: scale(1.05); 
+}
+
+
+.slider-carousel .slick-next {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNOC41OSAxNi41OUwxMy4xNyAxMiA4LjU5IDcuNDEgMTAgNmw2IDYtNiA2LTEuNDEtMS40MXoiLz48cGF0aCBkPSJNMCAwaDI0djI0SDBWMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=)
+}
+
+.slider-carousel .slick-prev {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==)
+}

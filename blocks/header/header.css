@@ -167,6 +167,7 @@ header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
   font-size: var(--body-font-size-s);
+  justify-content: flex-end;
 }
 
 header nav .nav-sections ul > li {

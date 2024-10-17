@@ -162,5 +162,22 @@ export default async function decorate(block) {
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
+
+  const tools = navWrapper.querySelector('.nav-tools');
+  if (tools) {
+    tools.remove();
+  }
+
+  const logo = navWrapper.querySelector('.icon-logo');
+  if (logo) {
+    const linkElement = document.createElement("a");
+    linkElement.href = "/"; 
+    linkElement.innerHTML = logo.innerHTML;
+    logo.parentNode.replaceChild(linkElement, logo);
+
+  }
+
+
+
   block.append(navWrapper);
 }
